@@ -1,0 +1,4 @@
+
+.btnBlue {
+    @apply flex justify-center items-center font-body border border-blue-400 rounded-lg bg-blue-500 px-20 py-5 text-white text-xl shadow-lg shadow-blue-500/50 duration-500 hover:bg-blue-600
+}
