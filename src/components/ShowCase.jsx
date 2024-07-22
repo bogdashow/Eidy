@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 function ShowCase() {
     return (
-        <div id='Benefits' className='w-full bg-slate-950 px-4'>
+        <div id='Showcase' className='w-full bg-slate-950 px-4'>
             <div className='max-w-[1240px] justify-center items-center flex flex-col mx-auto'>
                 <motion.div className='my-20'
                     initial={{ y: 75, opacity: 0 }}
