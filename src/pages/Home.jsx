@@ -8,6 +8,7 @@ import KeyFutures from '../components/KeyFutures'
 import ScreenApp from '../components/ScreenApp';
 import Benefits from '../components/Benefits';
 import ShowCase from '../components/ShowCase';
+import Compliance from '../components/Compliance';
 import Supporter from '../components/Supporter';
 
 
@@ -20,6 +21,7 @@ function Home() {
       <ScreenApp />
       <Benefits />
       <ShowCase />
+      <Compliance />
       <Supporter />
     </>
   );

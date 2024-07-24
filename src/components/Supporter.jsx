@@ -15,7 +15,7 @@ function Supporter() {
         >
           <h3 className='text-slate-500 font-title text-4xl max-md:text-3xl'>Our Supporters</h3>
         </motion.div>
-        <motion.div className='grid grid-cols-3 gap-6 justify-items-center pb-20 max-md:grid-cols-1 max-md:gap-10'
+        <motion.div className='grid grid-cols-3 gap-6 justify-items-center items-center pb-20 max-md:grid-cols-1 max-md:gap-10'
           initial={{ y: 45, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}

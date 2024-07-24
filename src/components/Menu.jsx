@@ -29,11 +29,14 @@ const Navbar = () => {
                <NavHashLink smooth exact to="#Benefits"
                   className={({ isActive }) => isActive ? activeLink : normalLink}
                ><li className='p-4 hover:text-blue-400 ease-out duration-500'>Benefits</li></NavHashLink>
+               <NavHashLink smooth exact to="#Showcase"
+                  className={({ isActive }) => isActive ? activeLink : normalLink}
+               ><li className='p-4 hover:text-blue-400 ease-out duration-500'>Showcase</li></NavHashLink>
                <NavHashLink smooth exact to="#Contact"
                   className={({ isActive }) => isActive ? activeLink : normalLink}
                ><li className='p-4 hover:text-blue-400 ease-out duration-500'>Contact</li></NavHashLink>
             </ul>
-            <div onClick={handleNav} className='sm:hidden z-10'>
+            <div onClick={handleNav} className='md:hidden z-10'>
                {nav ? <AiOutlineClose size={20} color='slate-300' /> : <AiOutlineMenu size={20} color='slate-300' />}
             </div>
 
@@ -42,10 +45,10 @@ const Navbar = () => {
                className={
                   nav
                      ? 'overflow-y-hidden md:hidden absolute left-0 top-0 w-full h-screen text-white font-normal border-r border-r-gray-900 bg-black ease-in-out duration-300'
-                     : 'absolute top-0 h-full left-[-100%] ease-in-out duration-300'
+                     : 'absolute top-0 h-full left-[-200%] ease-in-out duration-300'
                }
             >
-               <img className='mt-4 ml-4' src={logo} alt='logo' height={80} width={80} />
+               <img className='mt-8 ml-4' src={logo} alt='logo' height={80} width={80} />
                <ul className='pt-4'>
                   <NavHashLink smooth exact to="#About"
                      className={({ isActive }) => isActive ? activeLink : normalLink}
@@ -56,6 +59,9 @@ const Navbar = () => {
                   <NavHashLink smooth exact to="#Benefits"
                      className={({ isActive }) => isActive ? activeLink : normalLink}
                   ><li className='p-4 border-b border-gray-900 hover:text-blue-400 ease-out duration-500'>Benefits</li></NavHashLink>
+                  <NavHashLink smooth exact to="#Showcase"
+                     className={({ isActive }) => isActive ? activeLink : normalLink}
+                  ><li className='p-4 hover:text-blue-400 ease-out duration-500'>Showcase</li></NavHashLink>
                   <NavHashLink smooth exact to="#Contact"
                      className={({ isActive }) => isActive ? activeLink : normalLink}
                   ><li className='p-4 border-b border-gray-900 hover:text-blue-400 ease-out duration-500'>Contact</li></NavHashLink>
